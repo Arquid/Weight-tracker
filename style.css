@@ -1,0 +1,42 @@
+html {
+  width: 100%;
+  margin: auto;
+}
+
+.container{
+  margin-top: 20px;
+  text-align: center;
+}
+
+.userInfo {
+  border: solid blue 2px;
+  border-radius: 10px;
+  margin-left: 35vw;
+  margin-right: 35vw;
+  padding-bottom: 1vw;
+  padding-top: 1vw;
+}
+
+label {
+  color: #4d4b4b;
+  font-size: 20px;
+}
+
+button {
+  border: solid green 1px;
+  border-radius: 5px;
+  font-size: 20px;
+  cursor: pointer;
+  background: rgb(113, 167, 236);
+}
+
+button:hover {
+  background: rgb(68, 66, 194);
+}
+
+.chart-container {
+  position: relative;
+  margin: auto;
+  height: 80vh;
+  width: 80vw;
+}
