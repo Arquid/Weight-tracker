@@ -116,7 +116,6 @@ function showData(dayArr, weightArr) {
   canvasCont.appendChild(c);
   //make new chart using chart.js 
   const ctx = document.querySelector('#chart').getContext('2d');
-  console.log("eka: " + ctx.type);
   const chart = new Chart(ctx, {
     type: 'line',
     data: {
